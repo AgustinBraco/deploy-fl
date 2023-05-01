@@ -1,0 +1,64 @@
+@import '../base/mixin';
+
+header {
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    padding-block: 1.5rem;
+    align-items: center;
+
+    .header-account {
+        background-color: var(--color-main);
+        width: 5rem;
+        height: 5rem;
+        border-radius: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .header-account-link {
+
+            .header-account-icon {
+                transform: scale(1.3);
+            }
+        }
+    }
+
+    .header-feed {
+        background-color: var(--color-white);
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .header-feed-link {
+   
+            .header-feed-icon {
+                transform: scale(1.5);
+            }
+        }
+    }
+
+    .header-filters {
+        background-color: var(--color-white);
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .header-filters-link {
+   
+            .header-filters-icon {
+                transform: scale(1.5);
+            }
+        }
+    }
+}
